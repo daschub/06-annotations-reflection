@@ -29,6 +29,7 @@ class ICNDBTests {
 		while (requests++ < REQUEST_COUNT) {
 			// TODO Prepare call object
 
+
 			// TODO Perform a synchronous request
 
 			// TODO Extract object

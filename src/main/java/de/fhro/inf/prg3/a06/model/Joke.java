@@ -13,12 +13,30 @@ public final class Joke {
 	private String content;
 	private String[] rubrics;
 
+	// getter setter
+
 	public int getNumber() {
 		return number;
 	}
 
 	public String getContent() {
 		return content;
+	}
+
+	public String[] getRubrics() {
+		return rubrics;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public void setRubrics(String[] rubrics) {
+		this.rubrics = rubrics;
 	}
 
 	@Override
@@ -53,4 +71,6 @@ public final class Joke {
 				.append("rubrics", rubrics)
 				.toString();
 	}
+
+
 }
